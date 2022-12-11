@@ -10,3 +10,5 @@ nmap -sV 192.168.1.1
 nmap -T5 192.168.1.1/24
   -> scan the whole subnet
   -> T5= use the timing template 5 (the fastest)
+nmap -p 560 192.18.1.2
+  -> ping a specific port
